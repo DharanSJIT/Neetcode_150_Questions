@@ -9,10 +9,10 @@ class Solution {
                 if(stack.isEmpty()) return false;
                 char top=stack.pop();
                 if((top!='(' && c==')') ||
-                        (top!='[' && c==']') ||
-                        (top!='{' && c=='}')){
-                            return false;
-                        }
+                    (top!='[' && c==']') ||
+                    (top!='{' && c=='}')){
+                        return false;
+                    }
             }
         }
         return stack.isEmpty();
